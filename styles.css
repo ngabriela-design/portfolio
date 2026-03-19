@@ -4,6 +4,7 @@ Web design 173-4280
 Mar 19 2026 
 
 colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
+<!--Fonts: Ledger, Carrois Gothic, Oswald-->
 */
 
 @media (max-width: 600px) {
@@ -12,7 +13,10 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
         font-family: Ledger;
     }
 
-
+    p{
+        color:#1D0344;
+        font-family: Ledger;
+    }
 
 }
 
