@@ -7,14 +7,20 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 */
 
 @media (max-width: 600px) {
-    
+    h1, h2, h3{
+        color:#1D0344;
+        font-family: Ledger;
+    }
 
 
 
 }
 
 @media (min-width:601px) {
+    h1, h2, h3{
+        color:#1D0344;
+        font-family: Ledger;
+    }
 
 
-    
 }
