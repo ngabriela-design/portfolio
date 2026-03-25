@@ -37,9 +37,9 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 
 }
 
-@media (min-width:601px) {
+@media only screen and (max-width:850px) {
     h1, h2, h3{
-        color:#1D0344;
+        color:#1d0344;
         font: Ledger, Carrois Gothic;
     }
 
@@ -51,6 +51,77 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
         font: Oswald;
         background-color:#60d1a2;
     }
+    .navbar{
+        width: 100px;
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top:35px;
+        padding-bottom: 35px;
+        color: #1d0344;
+    }
+    .navbar a:hover{
+        display:block;
+        text-align: left;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top:35px;
+        padding-bottom: 35px;
+        width: 35%;
+        transition: all 0.3s ease-in;
+        color:#1d0344;
+        font-size: 2rem;
+    }
+    .active{
+        color:#1d0344;
+    }
+
+
+    p{
+        color:#1D0344;
+        font: Ledger, Carrois Gothic;
+    }
+}
+
+@media only screen and (min-width:851px) {
+    h1, h2, h3{
+        color:#1d0344;
+        font: Ledger, Carrois Gothic;
+    }
+
+    body{
+        background-color: #fffaf7;
+    }
+
+    nav{
+        font: Oswald;
+        background-color:#60d1a2;
+    }
+    .navbar{
+        width: 100px;
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top:35px;
+        padding-bottom: 35px;
+        color: #1d0344;
+    }
+    .navbar a:hover{
+        display:block;
+        text-align: left;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top:35px;
+        padding-bottom: 35px;
+        width: 35%;
+        transition: all 0.3s ease-in;
+        color:#1d0344;
+        font-size: 2rem;
+    }
+    .active{
+        color:#1d0344;
+    }
+
 
     p{
         color:#1D0344;
