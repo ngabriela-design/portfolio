@@ -3,6 +3,9 @@ Portfolio Website
 Web design 173-4280
 Mar 19 2026 
 
+Want to convey: reliable, technical/professional, and creative
+Making a portfolio focused on web design/front-end development
+
 colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 <!--Fonts: Ledger, Carrois Gothic, Oswald-->
 */
@@ -10,12 +13,26 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 @media (max-width: 600px) {
     h1, h2, h3{
         color:#1D0344;
-        font-family: Ledger;
+        font: Ledger, Carrois Gothic;
+    }
+
+    body{
+        background-color: #fffaf7;
+    }
+
+    nav{
+        font: Oswald;
+        background-color: #60d1a2;
+    }
+
+    main{
+        background-color: #cec7d9;
+        border-color: #ba8ffa;
     }
 
     p{
         color:#1D0344;
-        font-family: Ledger;
+        font: Ledger, Carrois Gothic;
     }
 
 }
@@ -23,8 +40,20 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 @media (min-width:601px) {
     h1, h2, h3{
         color:#1D0344;
-        font-family: Ledger;
+        font: Ledger, Carrois Gothic;
     }
 
+    body{
+        background-color: #fffaf7;
+    }
 
+    nav{
+        font: Oswald;
+        background-color:#60d1a2;
+    }
+
+    p{
+        color:#1D0344;
+        font: Ledger, Carrois Gothic;
+    }
 }
