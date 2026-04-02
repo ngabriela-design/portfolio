@@ -56,71 +56,19 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 }
 
 @media only screen and (max-width:850px) {
-    h1, h2, h3{
+h1, h2, h3{
         color:#1d0344;
         font: Ledger, Carrois Gothic;
     }
 
-    body{
+body{
         background-color: #fffaf7;
     }
-
-    nav{
-        font: Oswald;
-        background-color:#60d1a2;
-    }
-    ul {
-        list-style-type: none;
-    }
-    li{
-        list-style-type: none;
-    }
-    /*.navbar{
-        width: 100px;
-        display: block;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top:35px;
-        padding-bottom: 35px;
-        color: #1d0344;
-    }
-    .navbar a:hover{
-        display:block;
-        text-align: left;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top:35px;
-        padding-bottom: 35px;
-        width: 35%;
-        transition: all 0.3s ease-in;
-        color:#1d0344;
-        font-size: 2rem;
-    }
-    .active{
-        color:#1d0344;
-    }*/
-
-
-    p{
-        color:#1D0344;
-        font: Ledger, Carrois Gothic;
-    }
-}
-
-@media only screen and (min-width:851px) {
-    h1, h2, h3{
-        color:#1d0344;
-        font: Ledger, Carrois Gothic;
-    }
-
-    body{
-        background-color: #fffaf7;
-    }
-
-    .sidebar{
+ .sidebar{
         width: 100px;
         height: 100%;
         position:fixed;
+        float:right;
         display: block;
         z-index: 1;
         top:0;
@@ -146,8 +94,85 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
     ul {
         list-style-type: none;
     }
-    
+    section{
+        display:flex;
 
+    }
+    .section1{
+        opacity: 75%;
+    }
+    .section2{
+        opacity: 75%;
+    }
+    .section3{
+        opacity:75%;
+    }
+    img{
+        size-adjust: 50%;
+    }
+    p{
+        color:#1D0344;
+        font: Ledger, Carrois Gothic;
+    }
+}
+
+
+@media only screen and (min-width:851px) {
+    h1, h2, h3{
+        color:#1d0344;
+        font: Ledger, Carrois Gothic;
+    }
+
+    body{
+        background-color: #fffaf7;
+    }
+
+    .sidebar{
+        width: 100px;
+        height: 100%;
+        position:fixed;
+        float:right;
+        display: block;
+        z-index: 1;
+        top:0;
+        left:0;
+        background-color:#60d1a2;
+        overflow-x: hidden;
+        padding-top:35px;
+        padding-bottom: 35px;
+        color: #1d0344;
+    }
+    .sidebar a:hover{
+        display:block;
+        transition: all 0.3s ease;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top:35px;
+        padding-bottom: 35px;
+        width: 35%;
+        transition: all 0.3s ease-in;
+        color:#1d0344;
+        font-size: 2rem;
+    }
+    ul {
+        list-style-type: none;
+    }
+    section{
+        display:flex;
+
+    }
+    .section1{
+        opacity: 75%;
+    }
+    .section2{
+        opacity: 75%;
+    }
+    .section3{
+        opacity:75%;
+    }
+    img{
+        size-adjust: 50%;
+    }
     p{
         color:#1D0344;
         font: Ledger, Carrois Gothic;
