@@ -61,18 +61,23 @@ h1, h2, h3{
         font: Ledger, Carrois Gothic;
     }
 
+.logo{
+    display: flex;
+    position: center;
+}
+
 body{
         background-color: #fffaf7;
     }
  .sidebar{
         width: 100px;
+        border: 1px solid;
         height: 100%;
         position:fixed;
-        float:right;
         display: block;
         z-index: 1;
         top:0;
-        left:0;
+        right:0;
         background-color:#60d1a2;
         overflow-x: hidden;
         padding-top:35px;
@@ -91,8 +96,13 @@ body{
         color:#1d0344;
         font-size: 2rem;
     }
+
     ul {
         list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color: #60d1a2;
+        width:150px;
     }
     section{
         display:flex;
