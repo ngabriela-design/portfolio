@@ -69,7 +69,7 @@ h1, h2, h3{
 body{
         background-color: #fffaf7;
     }
- .sidebar{
+.sidebar{
         width: 100px;
         border: 1px solid;
         height: 100%;
@@ -84,7 +84,7 @@ body{
         padding-bottom: 35px;
         color: #1d0344;
     }
-    .sidebar a:hover{
+.sidebar a:hover{
         display:block;
         transition: all 0.3s ease;
         padding-left: 16px;
@@ -97,30 +97,30 @@ body{
         font-size: 2rem;
     }
 
-    ul {
+ul {
         list-style-type: none;
         margin:0;
         padding:0;
         background-color: #60d1a2;
         width:150px;
     }
-    section{
+section{
         display:flex;
 
     }
-    .section1{
+.section1{
         opacity: 75%;
     }
-    .section2{
+.section2{
         opacity: 75%;
     }
-    .section3{
+.section3{
         opacity:75%;
     }
-    img{
+img{
         size-adjust: 50%;
     }
-    p{
+p{
         color:#1D0344;
         font: Ledger, Carrois Gothic;
     }
