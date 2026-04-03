@@ -59,6 +59,7 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 h1, h2, h3{
         color:#1d0344;
         font: Ledger, Carrois Gothic;
+        position: center;
     }
 
 .logo{
@@ -106,10 +107,12 @@ ul {
     }
 section{
         display:flex;
+        column-count: 3;
 
     }
 .section1{
         opacity: 75%;
+        
     }
 .section2{
         opacity: 75%;
