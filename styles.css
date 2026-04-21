@@ -63,12 +63,15 @@ h1, h2, h3{
     }
 
 .logo{
-    display: flex;
+    display: fixed;
     position: center;
 }
-
-body{
-        background-color: #fffaf7;
+ul {
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color: #60d1a2;
+        width:150px;
     }
 .sidebar{
         width: 100px;
@@ -97,28 +100,28 @@ body{
         color:#1d0344;
         font-size: 2rem;
     }
-
-ul {
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        background-color: #60d1a2;
-        width:150px;
+body{
+        background-color: #fffaf7;
     }
+
 section{
-        display:flex;
         column-count: 3;
 
     }
 .section1{
         opacity: 75%;
-        
+        background-color:#cec7d9;
+        column-width: 2rem;
     }
 .section2{
         opacity: 75%;
+        background-color:#cec7d9;
+        column-width: 2rem;
     }
 .section3{
         opacity:75%;
+        background-color:#cec7d9;
+        column-width: 2rem;
     }
 img{
         size-adjust: 50%;
